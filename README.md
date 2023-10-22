@@ -9,6 +9,7 @@ CS Messaging Web App is a Node.js backend server for a messaging system. It enab
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+- [Additional Features](#additional-features)
 - [API Endpoints](#api-endpoints)
 - [Database](#database)
 - [Authentication](#authentication)
@@ -45,11 +46,13 @@ Before getting started, ensure you have the following prerequisites:
    ```bash
    npm serve
    ```
+## Additional Features
+I implemented distribution of messages to agents using the round-robin approach when a client sends a message.
 
 ## API Endpoints
 The backend provides the following API endpoints for managing customer-agent communication:
 ### Message routes
-- `POST api/messages`: Send a message from a customer.
+- `POST api/messages`: Send a message from a customer and assign to an agent.
 - `GET api/messages`: Retrieve messages.
 - `DELETE api/messages/:messageId`: Delete specific message by its id.
 
