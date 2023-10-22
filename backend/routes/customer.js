@@ -15,6 +15,6 @@ router.get('/customers/:id', customerController.getCustomer);
 router.delete('/customers/:id', customerController.deleteCustomer);
 
 // update customer
-router.patch('/customers/:id', customerController.updateCustomer);
+router.put('/customers/:id', customerController.updateCustomer);
 
 module.exports = router;
