@@ -1,0 +1,30 @@
+{
+  "name": "cs-messaging-backend",
+  "version": "1.0.0",
+  "description": "API for the messaging web app",
+  "main": "server.js",
+  "scripts": {
+    "serve": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sn0wF1re/cs-messaging-web-app.git"
+  },
+  "author": "Sn0wF1re",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sn0wF1re/cs-messaging-web-app/issues"
+  },
+  "homepage": "https://github.com/Sn0wF1re/cs-messaging-web-app#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.6.3",
+    "mongoose-type-email": "^1.1.2"
+  }
+}
